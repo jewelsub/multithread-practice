@@ -23,6 +23,6 @@
     </dependency>
   </dependencies>
   <modules>
-    <module>MultiThreading</module>
+    <module>synchronized</module>
   </modules>
 </project>
