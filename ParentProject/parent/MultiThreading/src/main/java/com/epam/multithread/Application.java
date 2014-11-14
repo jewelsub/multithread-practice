@@ -8,7 +8,7 @@ import com.epam.multithread.worker.WorkerFactiory;
 import com.epam.multithread.worker.WorkerInterface;
 
 /**
- * @author Mohammad_Masudur_Rahaman
+ * @author Mohammad_Masudur_Rahaman Date 14/11/2014
  *
  */
 public class Application {
