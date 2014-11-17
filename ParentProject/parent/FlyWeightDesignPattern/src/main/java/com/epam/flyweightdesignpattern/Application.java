@@ -17,7 +17,5 @@ public class Application
         shapeRectangle1.draw();
         Shape shapeRectangle2 = ShapeFactory.getShape(ShapeType.RECTANGLE);
         shapeRectangle2.draw();
-        
-        
     }
 }
