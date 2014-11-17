@@ -25,7 +25,6 @@ public class Application {
 	private static void runProcess() {
 		WorkerFactiory workerFactory = new WorkerFactiory();
 		
-		
 		WorkerInterface worker1 = workerFactory.getWorkerByType(WorkerType.USING_LOCK_OBJECT);
 		worker1.transferAmount();
 		

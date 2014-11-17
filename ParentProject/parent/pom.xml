@@ -25,5 +25,6 @@
   <modules>
     <module>MultiThreading</module>
     <module>DecoratorPattern</module>
+    <module>FlyWeightDesignPattern</module>
   </modules>
 </project>
