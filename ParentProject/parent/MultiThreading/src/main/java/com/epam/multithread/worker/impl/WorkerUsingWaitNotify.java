@@ -3,10 +3,10 @@ package com.epam.multithread.worker.impl;
 import java.util.Random;
 
 import com.epam.multithread.domain.WorkerType;
-import com.epam.multithread.worker.Worker;
+import com.epam.multithread.worker.AbstractWorker;
 import com.epam.multithread.worker.WorkerInterface;
 
-public class WorkerUsingWaitNotify extends Worker implements WorkerInterface {
+public class WorkerUsingWaitNotify extends AbstractWorker implements WorkerInterface {
 
 	public WorkerUsingWaitNotify() {
 		super(WorkerType.USING_WAIT_NOTIFY);

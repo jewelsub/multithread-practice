@@ -8,10 +8,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 import com.epam.multithread.domain.WorkerType;
-import com.epam.multithread.worker.Worker;
+import com.epam.multithread.worker.AbstractWorker;
 import com.epam.multithread.worker.WorkerInterface;
 
-public class WorkerUsingReentrantLock extends Worker implements WorkerInterface {
+public class WorkerUsingReentrantLock extends AbstractWorker implements WorkerInterface {
 
 	private Lock lock = new ReentrantLock();
 

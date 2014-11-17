@@ -6,10 +6,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import com.epam.multithread.domain.WorkerType;
-import com.epam.multithread.worker.Worker;
+import com.epam.multithread.worker.AbstractWorker;
 import com.epam.multithread.worker.WorkerInterface;
 
-public class WorkerUsingThreeadPool extends Worker implements WorkerInterface {
+public class WorkerUsingThreeadPool extends AbstractWorker implements WorkerInterface {
 
 	public WorkerUsingThreeadPool() {
 		super(WorkerType.USING_THREAD_POOL);

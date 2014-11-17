@@ -3,10 +3,10 @@ package com.epam.multithread.worker.impl;
 import java.util.Random;
 
 import com.epam.multithread.domain.WorkerType;
-import com.epam.multithread.worker.Worker;
+import com.epam.multithread.worker.AbstractWorker;
 import com.epam.multithread.worker.WorkerInterface;
 
-public class WorkerUsingSynchronized extends Worker implements WorkerInterface {
+public class WorkerUsingSynchronized extends AbstractWorker implements WorkerInterface {
 
 
 	public WorkerUsingSynchronized() {

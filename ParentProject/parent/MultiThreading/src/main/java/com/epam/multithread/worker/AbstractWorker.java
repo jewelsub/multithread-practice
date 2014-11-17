@@ -3,7 +3,7 @@ package com.epam.multithread.worker;
 import com.epam.multithread.domain.Account;
 import com.epam.multithread.domain.WorkerType;
 
-public class Worker {
+public abstract class AbstractWorker {
 	
 	protected WorkerType workerType;
 
@@ -15,7 +15,7 @@ public class Worker {
 	/**
 	 * @param workerType
 	 */
-	public Worker(WorkerType workerType) {
+	public AbstractWorker(WorkerType workerType) {
 		this.workerType = workerType;
 	}
 
