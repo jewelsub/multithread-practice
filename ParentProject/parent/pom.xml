@@ -28,5 +28,6 @@
     <module>FlyWeightPattern</module>
     <module>MadiatorPattern</module>
     <module>ObserverPattern</module>
+    <module>SingletonPattern</module>
   </modules>
 </project>
