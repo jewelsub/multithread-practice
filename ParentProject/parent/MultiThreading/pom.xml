@@ -8,7 +8,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>com.epam.multithread</groupId>
-  <artifactId>synchronized</artifactId>
+  <artifactId>multithread</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>synchronized</name>
   <url>http://maven.apache.org</url>
