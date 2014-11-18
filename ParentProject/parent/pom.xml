@@ -27,5 +27,6 @@
     <module>DecoratorPattern</module>
     <module>FlyWeightPattern</module>
     <module>MadiatorPattern</module>
+    <module>ObserverPattern</module>
   </modules>
 </project>
