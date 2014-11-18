@@ -23,9 +23,9 @@
     </dependency>
   </dependencies>
   <modules>
-    <module>MultiThreading</module>
+    <module>MultiThreadingFactoryPattern</module>
     <module>DecoratorPattern</module>
     <module>FlyWeightPattern</module>
-    <module>MadiatorPattrn</module>
+    <module>MadiatorPattern</module>
   </modules>
 </project>
