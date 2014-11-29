@@ -7,9 +7,9 @@
     <artifactId>parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.epam</groupId>
+  <groupId>com.epam.flywheel</groupId>
   <artifactId>FlyWeightDesignPattern</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>FlyWeightDesignPattern</name>
   <url>http://maven.apache.org</url>
   <properties>

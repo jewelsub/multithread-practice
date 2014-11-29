@@ -7,9 +7,9 @@
     <artifactId>parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.epam</groupId>
+  <groupId>com.epam.singleton</groupId>
   <artifactId>SingletonPattern</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>SingletonPattern</name>
   <url>http://maven.apache.org</url>
   <properties>
